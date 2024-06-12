@@ -1,6 +1,6 @@
 # 学习笔记
 ## [*计算机基础*][1]
-- ### 设计模式
+- ### [*设计模式*][9]
 - ### 数据结构
 - ### 算法
 ## [*数据库*][2]
@@ -23,3 +23,4 @@
 [6]: ./zookeeper/README.md
 [7]: ./language/README.md
 [8]: ./database/mysql/README.md
+[9]: ./base/design-pattern/README.md
