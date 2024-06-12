@@ -14,4 +14,4 @@
 - ### Java
 - ### GoLang
 
-[1]: https://github.com/xiaoyu-zhang/study-notes/blob/master/base/README.md
+[1]: ./base/README.md
