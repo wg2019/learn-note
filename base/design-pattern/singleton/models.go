@@ -18,6 +18,7 @@ func GetLazyInstance() *singleton {
 // hungryInstance 实例
 var hungryInstance *singleton
 
+// init 初始化
 func init() {
 	hungryInstance = new(singleton)
 	hungryInstance.name = "饿汉式"

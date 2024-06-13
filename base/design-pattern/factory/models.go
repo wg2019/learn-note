@@ -40,3 +40,15 @@ func (a *BFactory) Manufacture() Product {
 	fmt.Printf("name: %s\n", "BFactory")
 	return new(BProduct)
 }
+
+// GetFactory 获取工厂.
+func GetFactory(name string) Factory {
+	switch name {
+	case "AFactory":
+		return new(AFactory)
+	case "BFactory":
+		return new(BFactory)
+	default:
+		return nil
+	}
+}
